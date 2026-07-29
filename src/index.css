@@ -1,0 +1,37 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.task-card {
+  border-left: 4px solid #0d6efd;
+}
+
+.task-card.completed {
+  border-left-color: #198754;
+  opacity: 0.8;
+}
+
+.task-card.completed .task-title {
+  text-decoration: line-through;
+}
+
+.priority-badge-HIGH {
+  background-color: #dc3545;
+}
+
+.priority-badge-MEDIUM {
+  background-color: #fd7e14;
+}
+
+.priority-badge-LOW {
+  background-color: #6c757d;
+}
+
+.auth-card {
+  max-width: 420px;
+  margin: 60px auto;
+}
