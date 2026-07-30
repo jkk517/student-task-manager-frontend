@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // central axios instance so we don't repeat the base URL everywhere
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8080/api'
+  baseURL: 'https://student-task-manager-eqin.onrender.com/api'
 })
 
 // attach the JWT token to every request automatically
